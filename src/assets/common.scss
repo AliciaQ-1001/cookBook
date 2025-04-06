@@ -1,0 +1,17 @@
+html,
+body {
+  height: 100%;
+  overflow: scroll;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
